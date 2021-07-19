@@ -10,7 +10,7 @@ else
     liquibase "$@"
   else
     ## Include standard defaultsFile
-    liquibase "--defaultsFile=/liquibase/liquibase.docker.properties" "$@"
+    liquibase "--defaults-file=/liquibase/liquibase.docker.properties" "$@"
   fi
 fi
 
